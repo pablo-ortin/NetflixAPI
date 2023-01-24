@@ -27,7 +27,7 @@ df2021dicc = df2021.reset_index().to_dict(orient="index")
 
 @app.get("/")
 async def index():
-    return {"Hola, para ver los diccionarios por favor utilice los siguientes decoradores: /2019 /2020 /2021 según el año que desee consultar."}
+    return { "Ver los diccionarios : /2019 /2020 /2021 según el año que desee consultar."}
 
 @app.get("/2019")
 async def index():
