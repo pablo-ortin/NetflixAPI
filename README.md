@@ -28,8 +28,7 @@
 + FROM tiangolo/uvicorn-gunicorn-fastapi
 + RUN pip install pandas
 + Puerto 80
-+ Copiar la carpeta de sus archivos dentro de Docker(El jueves lo vimos)
-
++ Copiar la carpeta de sus archivos dentro de Docker.
 ----
 <h4>Mini Guia Mogenius</h4>
 
